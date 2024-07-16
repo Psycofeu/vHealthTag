@@ -37,7 +37,7 @@ class Main extends PluginBase implements Listener
         $type = $this->getConfig()->get("heath_type");
         return strtolower($type);
     }
-    public function e(PlayerRespawnEvent $event)
+    public function respawnEvent(PlayerRespawnEvent $event)
     {
         $this->getScheduler()->scheduleDelayedTask(new ClosureTask(function () use ($event): void {
             $this->setScoreTag($event->getPlayer());
