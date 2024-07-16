@@ -4,9 +4,10 @@ PMMP plugin for health Tag (see health on player name)
 
 ## Types
 |Types|Descritpions|
-| Bar | Health with bar |
-| Percent | Health with Percent |
-| Health | Health by numbre |
+|:--:|:--:|
+| `Bar` | Health with bar |
+| `Percent` | Health with Percent |
+| `Health` | Health by numbre |
 
 ```yaml
 #$$$$$$$\                                           $$$$$$\
